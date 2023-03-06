@@ -1,5 +1,5 @@
 <p align="center">
-<img src="GenerationImage/Assets.xcassets/openAI.imageset/imageOpen.png" width="85" height="80"/>   
+<img src="GenerationImage/Assets.xcassets/openAI.imageset/imageOpen.png" width="107" height="100"/>   
 </p>
 
 # GenerationImage
