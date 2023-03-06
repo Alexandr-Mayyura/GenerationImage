@@ -61,11 +61,22 @@ struct ContentView: View {
             if isOn {
                 ProgressView()
                     .scaleEffect(2)
-            } else if let image = image {
-                Image(uiImage: image)
+            } else if let newImage = image {
+                Image(uiImage: newImage)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 350, height: 350)
+                    .contextMenu {
+                        Button {
+                            guard let inputImage = image else { return }
+                            let imageSaver = ImageSaver()
+                            imageSaver.writeToPhotoAlbum(image: inputImage)
+                        } label: {
+                            Label("Save", systemImage: "square.and.arrow.down")
+                            
+                        }
+                        
+                    }
             } else {
                 Text("Generation image")
             }
@@ -84,7 +95,6 @@ struct ContentView: View {
                                 }
                                 self.image = result
                                 isOn.toggle()
-                                
                             }
                         }
                     }
