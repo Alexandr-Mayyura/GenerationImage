@@ -11,6 +11,8 @@
 		1FA8E6D029B5F94A0076D4B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA8E6CF29B5F94A0076D4B3 /* ContentView.swift */; };
 		1FA8E6D229B5F94E0076D4B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA8E6D129B5F94E0076D4B3 /* Assets.xcassets */; };
 		1FA8E6D529B5F94E0076D4B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA8E6D429B5F94E0076D4B3 /* Preview Assets.xcassets */; };
+		1FA8E6DD29B5F9A50076D4B3 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1FA8E6DC29B5F9A50076D4B3 /* OpenAIKit */; };
+		1FA8E6DF29B5FA9C0076D4B3 /* ConfigSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA8E6DE29B5FA9C0076D4B3 /* ConfigSecret.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,7 @@
 		1FA8E6CF29B5F94A0076D4B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FA8E6D129B5F94E0076D4B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FA8E6D429B5F94E0076D4B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FA8E6DE29B5FA9C0076D4B3 /* ConfigSecret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigSecret.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA8E6DD29B5F9A50076D4B3 /* OpenAIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +57,7 @@
 			children = (
 				1FA8E6CD29B5F94A0076D4B3 /* GenerationImageApp.swift */,
 				1FA8E6CF29B5F94A0076D4B3 /* ContentView.swift */,
+				1FA8E6DE29B5FA9C0076D4B3 /* ConfigSecret.swift */,
 				1FA8E6D129B5F94E0076D4B3 /* Assets.xcassets */,
 				1FA8E6D329B5F94E0076D4B3 /* Preview Content */,
 			);
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = GenerationImage;
+			packageProductDependencies = (
+				1FA8E6DC29B5F9A50076D4B3 /* OpenAIKit */,
+			);
 			productName = GenerationImage;
 			productReference = 1FA8E6CA29B5F94A0076D4B3 /* GenerationImage.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = 1FA8E6C129B5F9490076D4B3;
+			packageReferences = (
+				1FA8E6DB29B5F9A50076D4B3 /* XCRemoteSwiftPackageReference "OpenAIKit" */,
+			);
 			productRefGroup = 1FA8E6CB29B5F94A0076D4B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,6 +150,7 @@
 			files = (
 				1FA8E6D029B5F94A0076D4B3 /* ContentView.swift in Sources */,
 				1FA8E6CE29B5F94A0076D4B3 /* GenerationImageApp.swift in Sources */,
+				1FA8E6DF29B5FA9C0076D4B3 /* ConfigSecret.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +351,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1FA8E6DB29B5F9A50076D4B3 /* XCRemoteSwiftPackageReference "OpenAIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MarcoDotIO/OpenAIKit.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1FA8E6DC29B5F9A50076D4B3 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FA8E6DB29B5F9A50076D4B3 /* XCRemoteSwiftPackageReference "OpenAIKit" */;
+			productName = OpenAIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1FA8E6C229B5F9490076D4B3 /* Project object */;
 }
