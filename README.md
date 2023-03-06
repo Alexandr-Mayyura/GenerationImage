@@ -1,11 +1,11 @@
 <p align="center">
-<img src="GenerationImage/Assets.xcassets/AppIcon.appiconset/logoOpen.png" width="87" height="80"/>   
+<img src="GenerationImage/Assets.xcassets/openAI.imageset/imageOpen.png" width="85" height="80"/>   
 </p>
 
 # GenerationImage
 
 ### Discription:
-Это легкая версия генератора изображений с помощью DALL'E-2 OpenAI.</br>The framework used here is https://github.com/MarcoDotIO/OpenAIKit
+This is a lightweight version of the DALL'E-2 OpenAI Image Generator.</br>The framework used here is https://github.com/MarcoDotIO/OpenAIKit
 </br>as well as a token from https://platform.openai.com/docs</br>
 This is a trial version and not much has been done here,</br>also note that there is no token file, you will have to add it yourself and just enter your token from openai.com
 
