@@ -18,5 +18,5 @@ This is a trial version and not much has been done here,</br>also note that ther
 
 
 <p align="center">
-<img src="Снимок экрана 2023-03-06 в 22.13.14.png" width="200" height="330"/>                                                                                                                                  
+<img src="Снимок экрана 2023-03-06 в 22.13.14.png" width="180" height="330"/>                                                                                                                                  
 </p>
