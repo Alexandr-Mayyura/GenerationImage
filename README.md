@@ -14,9 +14,9 @@ This is a trial version and not much has been done here,</br>also note that ther
 ![SWIFTUI](https://img.shields.io/badge/-SWIFTUI-blue)
 ![XCODE](https://img.shields.io/badge/-XCODE-blueviolet)
 ![IOS](https://img.shields.io/badge/-iOS-blue)
-![OPENAIKIT](https://img.shields.io/badge/-OPENAISWIFT-orange)
+![OPENAIKIT](https://img.shields.io/badge/-OPENAIKIT-orange)
 
 
 <p align="center">
-<img src="Снимок экрана 2023-03-06 в 22.13.14.png" width="150" height="330"/>                                                                                                                                  
+<img src="Снимок экрана 2023-03-06 в 22.13.14.png" width="200" height="330"/>                                                                                                                                  
 </p>
