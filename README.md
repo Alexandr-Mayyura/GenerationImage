@@ -14,7 +14,7 @@ This is a trial version and not much has been done here,</br>also note that ther
 ![SWIFTUI](https://img.shields.io/badge/-SWIFTUI-blue)
 ![XCODE](https://img.shields.io/badge/-XCODE-blueviolet)
 ![IOS](https://img.shields.io/badge/-iOS-blue)
-![OPENAISWIFT](https://img.shields.io/badge/-OPENAISWIFT-orange)
+![OPENAIKIT](https://img.shields.io/badge/-OPENAISWIFT-orange)
 
 
 <p align="center">
